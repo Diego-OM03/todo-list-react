@@ -1,5 +1,5 @@
 {
-  "homepage": "https://diego-om03.github.io/AGENDA",
+  "homepage": "https://diego-om03.github.io/AGENDA/",
   "name": "todo-list",
   "version": "0.1.0",
   "private": true,
@@ -15,10 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
