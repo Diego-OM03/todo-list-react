@@ -1,8 +1,8 @@
 {
-  "homepage": "https://diego-om03.github.io/AGENDA/",
   "name": "todo-list",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://diego-om03.github.io/todo-list-react",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
