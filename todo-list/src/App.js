@@ -84,7 +84,7 @@ function App() {
 
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-[#FFF9DB] flex items-center justify-center p-4">
       <div className="bg-white shadow-md rounded-xl p-6 w-full max-w-md">
         <h1 className="text-2xl font-bold text-center text-blue-600 mb-4">
           Lista de Tareas
