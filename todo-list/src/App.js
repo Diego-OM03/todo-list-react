@@ -16,8 +16,8 @@ function App() {
 
   const tasksRef = collection(db, "tasks");
 
-  useEffect(() => {
-    const unsubscribe = onSnapshot(tasksRef, (snapshot) => {
+    useEffect(() => {
+    const unsubscribe = onSnapshot(collection(db, "tasks"), (snapshot) => {
       const active = [];
       const done = [];
 
